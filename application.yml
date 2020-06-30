@@ -1,0 +1,13 @@
+server: 
+  port: 8060
+  
+spring:
+  application:
+    name:  demo-spring-cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:zzyybs/microservicecloud-config.git #GitHub上面的git仓库名字
+ 
+
